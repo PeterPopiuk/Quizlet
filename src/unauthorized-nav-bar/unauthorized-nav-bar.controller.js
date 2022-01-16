@@ -1,6 +1,5 @@
 import { navBar } from "../nav-bar/nav-bar.view";
 import { navigate } from "../navigation/navigation.controller";
-import { removeNotification } from "../notification/notification.view";
 import { getAnchor, initViewNavBar, markAsActiveNavbarLink, markLoginBtn, showLoginNavbar} from "./unauthorized-nav-bar.view";
 
 
