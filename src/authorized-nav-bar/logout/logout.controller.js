@@ -4,10 +4,11 @@ import { initNavigation } from "../../navigation/navigation.controller";
 
 export function initLogout() {
     const logoutBtn = document.querySelector("#logout");
-    initLogoutListeners();
+    initLogoutListeners(logoutBtn);
 }
 
-function initLogoutListeners() {
-    const logoutBtn = document.querySelector("#logout");
+function initLogoutListeners(logoutBtn) {
+    // const logoutBtn = document.querySelector("#logout");
+    
     logoutBtn.addEventListener("click",initNavigation);
 } 

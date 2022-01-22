@@ -26,6 +26,6 @@ export const navigationConfig = {
   // create: {
   //   init: initCreate,
   //   dispose: disposeCreate,
-  //   navbar: initNavBar,
+  //   navbar: initAuthorizedNavBar,
   // }
 };
